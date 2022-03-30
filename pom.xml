@@ -8,12 +8,11 @@
   <artifactId>microservices</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+
   <modules>
     <module>customer</module>
   </modules>
-
   <name>microservices</name>
-  <!-- FIXME change it to the project's website -->
   <url>https://wwww.filipwlodarczyk.com</url>
 
   <properties>
@@ -52,7 +51,7 @@
       <plugins>
         <plugin>
           <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-jta-bitronix</artifactId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
           <version>${spring.boot.maven.plugin.version}</version>
         </plugin>
       </plugins>
